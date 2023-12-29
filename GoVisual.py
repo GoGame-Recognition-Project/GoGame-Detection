@@ -1,8 +1,7 @@
-#%%
 import numpy as np
 import cv2
 import sente
-# %%
+
 
 class GoVisual:
     """
@@ -271,5 +270,3 @@ class GoVisual:
         black_stones, white_stones = self.get_stones(detected_state)
         return self.drawBoard(black_stones, white_stones)
         
-
-
