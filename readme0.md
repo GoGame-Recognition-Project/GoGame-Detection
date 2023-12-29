@@ -1,16 +1,27 @@
-<!---->
-
 <div align="center">
-    <h1>GOGAME-DETECTION</h1>
-    <h3>◦ HTTPStatus Exception: 404</h3>
-    <h3>◦ Developed with the software and tools below.</h3>
-</div>
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
+<br>GOGAME-DETECTION</h1>
+<h3>◦ HTTPStatus Exception: 404</h3>
+<h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src=https://skillicons.dev/icons?i=py,git,github />
-  </a>
+<img src="https://img.shields.io/badge/tqdm-FFC107.svg?style=flat-square&logo=tqdm&logoColor=black" alt="tqdm" />
+<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikitlearn" />
+<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat-square&logo=Jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Jinja-B41717.svg?style=flat-square&logo=Jinja&logoColor=white" alt="Jinja" />
+<img src="https://img.shields.io/badge/SciPy-8CAAE6.svg?style=flat-square&logo=SciPy&logoColor=white" alt="SciPy" />
+
+<img src="https://img.shields.io/badge/SymPy-3B5526.svg?style=flat-square&logo=SymPy&logoColor=white" alt="SymPy" />
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=Python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy" />
 </p>
+<img src="https://img.shields.io/github/license/GoGame-Recognition-Project/GoGame-Detection?style=flat-square&color=5D6D7E" alt="GitHub license" />
+<img src="https://img.shields.io/github/last-commit/GoGame-Recognition-Project/GoGame-Detection?style=flat-square&color=5D6D7E" alt="git-last-commit" />
+<img src="https://img.shields.io/github/commit-activity/m/GoGame-Recognition-Project/GoGame-Detection?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
+<img src="https://img.shields.io/github/languages/top/GoGame-Recognition-Project/GoGame-Detection?style=flat-square&color=5D6D7E" alt="GitHub top language" />
+</div>
 
 ---
 
