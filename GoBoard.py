@@ -34,7 +34,7 @@ class GoBoard:
             Placeholder for the current state of the GoBoard.
 
         """
-        self.model = sente.Game()
+        self.model = model
         self.frame = None
         self.results = None
         self.tranformed_image = None

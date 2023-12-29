@@ -22,7 +22,7 @@ class GoVisual:
         game : Sente
             the game instance created by Sente and updated by GoGame 
         """
-        self.game = sente.Game()
+        self.game = game
         self.board_size = 19
         self.last_move = None
         self.cursor = len(self.get_moves())

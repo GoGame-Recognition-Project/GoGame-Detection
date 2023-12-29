@@ -1,7 +1,5 @@
 import numpy as np
 import sente
-import GoVisual
-import GoBoard
 
 
 
@@ -43,9 +41,9 @@ class GoGame:
             Placeholder for the current player in the game.
 
         """
-        self.board_detect = GoBoard.GoBoard()
-        self.game = sente.Game()
-        self.go_visual = GoVisual.GoVisual(self.game)
+        self.board_detect = board_detect
+        self.game = game
+        self.go_visual = go_visual
         self.current_player = None
         self.transparent_mode = transparent_mode
     

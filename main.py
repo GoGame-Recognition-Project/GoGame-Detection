@@ -20,13 +20,10 @@ def processing_thread():
                     initialized = True
                 else:
                     game_plot, sgf_text = game.main_loop(ProcessFrame)
-                # game_plot, sgf_filename = show_board(model, ProcessFrame)
                 cv2.imshow("master", game_plot)
                 # cv2.imshow("annotated", game.board_detect.annotated_frame)
                 # cv2.imshow("transformed", game.board_detect.transformed_image)
                 
-            # except OverflowError as e:
-            #     print(f"Overflow Error: {e}")
                 
             except Exception as e:
                 # print('empty frame', type(e), e.args, e)
@@ -92,10 +89,7 @@ while cap.isOpened():
     cv2.imshow('Video Stream', frame)
     
     key_pressed = cv2.waitKey(1) & 0xFF
-    
-    # if key_pressed == ord('p'):
-    #     print("button pressed")
-    
+
     if key_pressed == ord('q'):
         Process = False
         break 
