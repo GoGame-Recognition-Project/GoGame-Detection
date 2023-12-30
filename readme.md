@@ -262,3 +262,57 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 ---
 
+
+# GoGame-Detection
+
+GoGame-Detection is a Python project for playing the traditional board game Go, combining computer vision and machine learning techniques. The project includes modules for board detection, game logic, and visualization.
+
+## Files
+
+### 1. GoBoard.py
+- **Purpose:** Implements the `GoBoard` class, which represents the game board and its state.
+- **Key Features:**
+  - Applies perspective transformation to the input frame.
+  - Assigns stones to intersections based on their proximity.
+  - Processes frames and extracts information about the Go board.
+
+### 2. GoGame.py
+- **Purpose:** Manages the game state, detects moves, and interfaces with the Sente library for Go game logic.
+- **Key Features:**
+  - Initializes the game with instances of the Sente game, a Go board detector, and a Go visualizer.
+  - Processes frames and updates the game state.
+  - Provides methods for playing moves, correcting stone positions, and obtaining the SGF representation.
+
+### 3. GoVisual.py
+- **Purpose:** Creates a visual representation of the Go game based on a Sente game instance.
+- **Key Features:**
+  - Navigates through the game using methods like `previous` and `next`.
+  - Displays the initial, final, and current positions on the board.
+  - Draws the Go game board with stones and highlights the last move.
+
+### 4. Notebooks to Explain Detection/
+- **Files:**
+  - **Algorithmic approach to detect a go board.ipynb:** Notebook explaining the algorithmic approach to detect a Go board.
+  - **Go_board_detection.ipynb:** Notebook providing insights into Go board detection.
+
+### 5. UML/
+- **Purpose:** Placeholder for UML diagrams or documentation (not provided).
+
+### 6. main.py
+- **Purpose:** Main script to run the GoGame-Detection application.
+
+### 7. model.pt
+- **Purpose:** Pre-trained machine learning model associated with the GoBoard.
+
+### 8. requirements.txt
+- **Dependencies:**
+  - numpy==1.26.2
+  - opencv-python==4.8.1.78
+  - scikit-learn==1.3.2
+  - sente==0.4.2
+  - ultralytics==8.0.231
+
+### 9. utils_.py
+- **Purpose:** Contains utility functions used across different modules.
+
+
