@@ -1,36 +1,39 @@
-<!---->
-![Logo](img/GoLogo.png)
+
 <div align="center">
     <img src="img/logo1.png" height=300>
-    <h1>GOGAME-DETECTION</h1>
-</div>
-<h3>◦ Developed with the software and tools below.</h3>
+    <h1>GOGAME DETECTION</h1>
+
+<h3>Developed with the software and tools below</h3>
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src=https://skillicons.dev/icons?i=py,git,github />
-  </a>
+    <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat-square&logo=Jupyter&logoColor=white" alt="Jupyter" />
+    <img src="https://img.shields.io/badge/opencv--python-4.8.1.78-blue?style=flat-square&logo=opencv" alt="opencv-python" />
+    <img src="https://img.shields.io/badge/scikit--learn-1.3.2-orange?style=flat-square&logo=scikit-learn" alt="scikit-learn" />
+    <img src="https://img.shields.io/badge/sente-0.4.2-yellow?style=flat-square&logoColor=white" alt="sente" />
+    <img src="https://img.shields.io/badge/ultralytics-8.0.231-brightgreen?style=flat-square&logoColor=white" alt="ultralytics" />
 </p>
+</div>
 
 ---
 
-## 📖 Table of Contents
-- [📖 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [📦 Features](#-features)
-- [📂 repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
-- [🚀 Getting Started](#-getting-started)
-    - [🔧 Installation](#-installation)
-    - [🤖 Running GoGame-Detection](#-running-GoGame-Detection)
-- [🛣 Roadmap](#-roadmap)
-- [👏 Acknowledgments](#-acknowledgments)
+## Table of Contents
+- [Overview](#overview)
+- [Repository Structure](#repository-structure)
+- [Modules](#modules)
+- [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Running GoGame-Detection](#running-gogame-detection)
+- [Roadmap](#roadmap)
+- [Acknowledgments](#acknowledgments)
+
 
 ---
 
 
 ## 📍 Overview
 
-GoGame-Detection is an innovative project designed to automate the detection and recognition of Go board game positions using computer vision and machine learning. The primary objective is to streamline the process of capturing and interpreting Go game states from images or video frames. This project combines advanced algorithms with a user-friendly interface to make Go game analysis and visualization accessible to a broader audience.
+This project is dedicated to the development of a program capable of recognizing a game board, its stones and their respective positions within a go game context from a video stream.
+The primary problem that our project tackles is the detection of the game setup at different angles without the need to set the camera at a fixed configuration. This capability allows for flexibility in changing the camera's angle or position, as well as adjusting the game board's placement during the course of the game. This stands as a distinctive feature compared to many existing solutions.
+
 
 Key Highlights:
 - **Automated Recognition:** Utilizes cutting-edge computer vision techniques to automatically recognize the positions of black and white stones on the Go board.
@@ -41,46 +44,6 @@ Whether you're a Go enthusiast, a developer exploring computer vision applicatio
 
 
 ---
-
-## 📦 Features
-
-GoGame-Detection comes packed with powerful features to enhance your Go game experience and analysis. Here are some of the key functionalities:
-
-1. **Automated Stone Recognition:**
-   - Utilizes advanced computer vision algorithms to automatically detect and recognize the positions of black and white stones on the Go board.
-
-2. **Real-time Processing:**
-   - Capable of processing live video feeds, providing real-time updates on the current state of the Go game.
-
-3. **Intuitive Visualization:**
-   - Generates visually appealing representations of Go game positions, making it easy to follow the progress of a game.
-
-4. **Perspective Transformation:**
-   - Applies perspective transformation to rectify the board's orientation, ensuring accurate stone position detection.
-
-5. **Interactive Navigation:**
-   - Allows users to navigate through different moves in the game, providing a step-by-step view of the gameplay.
-
-6. **Transparent Board View:**
-   - Offers a transparent board view that shows the exact state of the board without game rules, facilitating debugging and analysis.
-
-7. **SGF File Support:**
-   - Loads Go game data from Smart Game Format (SGF) files, enabling users to analyze pre-recorded games.
-
-8. **User-friendly Interface:**
-   - Designed with a user-friendly interface, making it accessible to Go enthusiasts, developers, and those interested in computer vision applications.
-
-9. **Cross-platform Compatibility:**
-   - Works seamlessly across different platforms, ensuring flexibility in usage and integration.
-
-10. **Open Source and Extensible:**
-    - The project is open-source, encouraging collaboration and allowing developers to extend and customize the functionality.
-
-Explore the world of Go with enhanced visualization and analysis capabilities, brought to you by GoGame-Detection.
-
-
----
-
 
 ## 📂 Repository Structure
 
@@ -105,7 +68,7 @@ Explore the world of Go with enhanced visualization and analysis capabilities, b
 
 ## ⚙️ Modules
 
-<details closed><summary>Root</summary>
+<summary>Root</summary>
 
 | File                                                                                                          | Summary                   |
 | ---                                                                                                           | ---                       |
@@ -115,18 +78,17 @@ Explore the world of Go with enhanced visualization and analysis capabilities, b
 | [GoVisual.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/GoVisual.py)           | Class for visual representation of the Go game |
 | [GoBoard.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/GoBoard.py)             | Class representing the GoBoard |
 | [utils_.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/utils_.py)               | Utility functions for the project |
-| [model.pt](link_to_model)                                                                                     | Trained machine learning model file. |
+| [model.pt](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/model.pt))                | Trained machine learning model file. |
 
-</details>
 
-<details closed><summary>Notebboks to explain detection</summary>
 
-| File                                                                                                                                                                                                       | Summary                   |
-| ---                                                                                                                                                                                                        | ---                       |
-| [Go_board_detection.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebboks to explain detection/Go_board_detection.ipynb)                                               | Notebook explaining the Go board detection algorithm |
-| [Algorithmic approach to detect a go board.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebboks to explain detection/Algorithmic approach to detect a go board.ipynb) | Notebook detailing the algorithmic approach for Go board detection |
+<summary>Notebboks to explain detection</summary>
 
-</details>
+| File                               | Summary                   |
+| ---                                | ---                       |
+| [Go_board_detection.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebooks_to_explain_detection/Go_board_detection.ipynb)                                               | Notebook explaining the Go board detection algorithm |
+| [Algorithmic approach to detect a go board.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebooks_to_explain_detection/Algorithmic_approach_to_detect_a_go_board.ipynb) | Notebook detailing the algorithmic approach for Go board detection |
+
 
 ---
 
@@ -166,11 +128,6 @@ pip install -r requirements.txt
 
 ```sh
 python main.py
-```
-
-### 🧪 Tests
-```sh
-pytest
 ```
 
 ---
