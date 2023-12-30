@@ -36,11 +36,12 @@ The primary problem that our project tackles is the detection of the game setup 
 
 
 Key Highlights:
-- **Automated Recognition:** Utilizes cutting-edge computer vision techniques to automatically recognize the positions of black and white stones on the Go board.
-- **Real-time Processing:** Capable of processing live video feeds, allowing for real-time tracking of Go game progress.
-- **Intuitive Visualization:** Generates visual representations of Go game positions, providing a clear and concise view of the board at different stages.
+- **Real-time Game recognition:** Capable of detecting key components of a go game using a custom trained `Yolov8` model.
+- .
+- .
+- .
+- **Intuitive Visualization:** An interactive user interface has been developed on the base of this project. The interface takes the form of a website, housed in a separate repository. Feel free to explore it by clicking here.
 
-Whether you're a Go enthusiast, a developer exploring computer vision applications, or someone curious about the intersection of AI and traditional board games, GoGame-Detection offers an engaging and educational experience.
 
 
 ---
@@ -77,7 +78,7 @@ Whether you're a Go enthusiast, a developer exploring computer vision applicatio
 | [GoGame.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/GoGame.py)               | Class for managing the Go game |
 | [GoVisual.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/GoVisual.py)           | Class for visual representation of the Go game |
 | [GoBoard.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/GoBoard.py)             | Class representing the GoBoard |
-| [utils_.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/utils_.py)               | Utility functions for the project |
+| [utils_.py](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/utils_.py)               | Utility functions used in GoBoard class |
 | [model.pt](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/model.pt))                | Trained machine learning model file. |
 
 
@@ -86,7 +87,7 @@ Whether you're a Go enthusiast, a developer exploring computer vision applicatio
 
 | File                               | Summary                   |
 | ---                                | ---                       |
-| [Go_board_detection.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebooks_to_explain_detection/Go_board_detection.ipynb)                                               | Notebook explaining the Go board detection algorithm |
+| [Go_board_detection.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebooks_to_explain_detection/Go_board_detection.ipynb)                                                    | Notebook explaining the Go board detection algorithm |
 | [Algorithmic approach to detect a go board.ipynb](https://github.com/GoGame-Recognition-Project/GoGame-Detection/blob/main/Notebooks_to_explain_detection/Algorithmic_approach_to_detect_a_go_board.ipynb) | Notebook detailing the algorithmic approach for Go board detection |
 
 
@@ -98,7 +99,7 @@ Whether you're a Go enthusiast, a developer exploring computer vision applicatio
 
 Please ensure you have the following dependencies installed on your system:
 
-`- ℹ️ [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)`
+- [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)
 
 `- ℹ️ [scikit-learn](https://scikit-learn.org/stable/install.html) (version 1.3.2)`
 
@@ -124,7 +125,7 @@ pip install -r requirements.txt
 ```
 
 
-### 🤖 Running GoGame-Detection
+### 🤖 Running the script
 
 ```sh
 python main.py
@@ -164,7 +165,7 @@ Feel free to check back regularly for updates on our progress.
 
 ## 👏 Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- Special thanks to [Etienne Peillard](https://github.com/EPeillard) our tutor for this project and Nicolas Desdames the representative of Tenuki Club, our project client.
 
 [**Return**](#Top)
 
@@ -197,30 +198,3 @@ GoGame-Detection is a Python project for playing the traditional board game Go, 
   - Navigates through the game using methods like `previous` and `next`.
   - Displays the initial, final, and current positions on the board.
   - Draws the Go game board with stones and highlights the last move.
-
-### 4. Notebooks to Explain Detection/
-- **Files:**
-  - **Algorithmic approach to detect a go board.ipynb:** Notebook explaining the algorithmic approach to detect a Go board.
-  - **Go_board_detection.ipynb:** Notebook providing insights into Go board detection.
-
-### 5. UML/
-- **Purpose:** Placeholder for UML diagrams or documentation (not provided).
-
-### 6. main.py
-- **Purpose:** Main script to run the GoGame-Detection application.
-
-### 7. model.pt
-- **Purpose:** Pre-trained machine learning model associated with the GoBoard.
-
-### 8. requirements.txt
-- **Dependencies:**
-  - numpy==1.26.2
-  - opencv-python==4.8.1.78
-  - scikit-learn==1.3.2
-  - sente==0.4.2
-  - ultralytics==8.0.231
-
-### 9. utils_.py
-- **Purpose:** Contains utility functions used across different modules.
-
-
