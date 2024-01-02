@@ -37,8 +37,8 @@ The primary problem that our project tackles is the detection of the game setup 
 
 Key Highlights:
 - **Real-time Game recognition:** Capable of detecting key components of a go game using a custom trained `Yolov8` model.
-- .
-- .
+- **Game management:** Capable of streaming and visually reproducing a Go game with or without respecting the Go game rules.
+- **SGF:** Capable of saving an SGF file of the streamed game for later use. 
 - .
 - **Intuitive Visualization:** An interactive user interface has been developed on the base of this project. The interface takes the form of a website, housed in a separate repository. Feel free to explore it by clicking here.
 
