@@ -41,11 +41,12 @@ class GoGame:
             Placeholder for the current player in the game.
 
         """
-        self.board_detect = board_detect
         self.game = game
+        self.board_detect = board_detect
         self.go_visual = go_visual
         self.current_player = None
         self.transparent_mode = transparent_mode
+        self.moves = []
     
     def set_transparent_mode(self, bool_):
         self.transparent_mode = bool_
