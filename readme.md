@@ -134,35 +134,6 @@ python main.py
 ---
 
 
-## 🛣 Project Roadmap
-
-The development of GoGame-Detection follows the outlined roadmap. This section provides an overview of completed tasks and upcoming features.
-
-- [x] **Task 1: Initial Implementation**
-  - Description: Implement the basic functionality of GoGame-Detection.
-  - Status: Completed
-
-- [ ] **Task 2: Feature Enhancement**
-  - Description: Enhance existing features to improve overall performance.
-  - Status: In Progress
-
-- [ ] **Task 3: Integration with External Services**
-  - Description: Integrate GoGame-Detection with external APIs or services.
-  - Status: Planned
-
-- [ ] **Task 4: User Interface Development**
-  - Description: Develop a user interface for easy interaction.
-  - Status: Planned
-
-- [ ] **Task 5: Documentation and Testing**
-  - Description: Improve documentation and conduct comprehensive testing.
-  - Status: Planned
-
-Feel free to check back regularly for updates on our progress.
-
----
-
-
 ## 👏 Acknowledgments
 
 - Special thanks to [Etienne Peillard](https://github.com/EPeillard) our tutor for this project and Nicolas Desdames the representative of Tenuki Club, our project client.
@@ -170,31 +141,3 @@ Feel free to check back regularly for updates on our progress.
 [**Return**](#Top)
 
 ---
-
-
-# GoGame-Detection
-
-GoGame-Detection is a Python project for playing the traditional board game Go, combining computer vision and machine learning techniques. The project includes modules for board detection, game logic, and visualization.
-
-## Files
-
-### 1. GoBoard.py
-- **Purpose:** Implements the `GoBoard` class, which represents the game board and its state.
-- **Key Features:**
-  - Applies perspective transformation to the input frame.
-  - Assigns stones to intersections based on their proximity.
-  - Processes frames and extracts information about the Go board.
-
-### 2. GoGame.py
-- **Purpose:** Manages the game state, detects moves, and interfaces with the Sente library for Go game logic.
-- **Key Features:**
-  - Initializes the game with instances of the Sente game, a Go board detector, and a Go visualizer.
-  - Processes frames and updates the game state.
-  - Provides methods for playing moves, correcting stone positions, and obtaining the SGF representation.
-
-### 3. GoVisual.py
-- **Purpose:** Creates a visual representation of the Go game based on a Sente game instance.
-- **Key Features:**
-  - Navigates through the game using methods like `previous` and `next`.
-  - Displays the initial, final, and current positions on the board.
-  - Draws the Go game board with stones and highlights the last move.
