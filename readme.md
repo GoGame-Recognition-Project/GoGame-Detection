@@ -99,13 +99,13 @@ Key Highlights:
 
 Please ensure you have the following dependencies installed on your system:
 
-- ℹ️ [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)
+ℹ️ [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)
 
-`- ℹ️ [scikit-learn](https://scikit-learn.org/stable/install.html) (version 1.3.2)`
+ℹ️ [scikit-learn](https://scikit-learn.org/stable/install.html) (version 1.3.2)
 
-`- ℹ️ [sente](https://pypi.org/project/sente/) (version 0.4.2)`
+ℹ️ [sente](https://pypi.org/project/sente/) (version 0.4.2)
 
-`- ℹ️ [ultralytics](https://pypi.org/project/ultralytics/) (version 8.0.231)`
+ℹ️ [ultralytics](https://pypi.org/project/ultralytics/) (version 8.0.231)
 
 ### 🔧 Installation
 
