@@ -99,7 +99,7 @@ Key Highlights:
 
 Please ensure you have the following dependencies installed on your system:
 
-- [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)
+`- ℹ️ [opencv-python](https://pypi.org/project/opencv-python/) (version 4.8.1.78)`
 
 `- ℹ️ [scikit-learn](https://scikit-learn.org/stable/install.html) (version 1.3.2)`
 
